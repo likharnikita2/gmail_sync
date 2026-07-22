@@ -3,6 +3,10 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in gmail_sync.gemspec.
 gemspec
 
+group :development, :test do
+  gem "rspec-rails", "~> 8.0"
+end
+
 gem "puma"
 
 gem "pg"
